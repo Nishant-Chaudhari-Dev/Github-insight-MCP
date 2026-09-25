@@ -1,0 +1,5 @@
+# MCP Python SDK v2. (2.0 renamed FastMCP to MCPServer; the <3 cap guards the next major.)
+mcp>=2,<3
+# Async HTTP client for the GitHub API. The MCP SDK itself runs on httpx2 too.
+httpx2>=2.5,<3
+pydantic>=2.12

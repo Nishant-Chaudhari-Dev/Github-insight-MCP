@@ -1,0 +1,6 @@
+# The tests use the standard library's unittest, so they need no extra packages:
+#     python -m unittest discover -s tests -v
+# This section only lets `pytest` run the same suite from the repository root.
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
